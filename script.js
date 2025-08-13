@@ -137,3 +137,74 @@
         
 //         break;
 // }
+
+// Loops while do-while and for loop
+
+// let i = 1;
+// while (i <= 10) {
+//     console.log(i);
+//     i++
+// }
+// do-while 
+
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++
+    
+// } while (i <=10);
+
+// for loops
+
+// for(var i = 1; i <= 10; i++){
+//     console.log(i);
+    
+// }
+
+// let i = 1;
+
+// while(i <=10){
+//     console.log("1 * " + i + " = " + 18 * i);
+//     i++;
+// }
+// var userInput;
+// var positiveNum;
+// do{
+//     userInput = prompt("Enter valid number ")
+//     positiveNum = parseFloat(userInput)
+
+// }while(isNaN(positiveNum) || positiveNum < 0);
+// console.log("It's valid number " , positiveNum);
+
+// var sum = 3;
+// for(var i = 3; i <= 10; i++){
+//     var sum = i + i;
+//     console.log(i);
+    
+// }
+
+// var num = 13;
+// var isPrime;
+
+// for (var i=2; i <num; i++){
+//     if(num % i == 0){
+//         isPrime = false;
+//         break;
+//     }
+// }
+// if (isPrime) {
+//     console.log("The number is prime");
+// }else{
+//     console.log("Number is not prime");
+    
+// }
+
+// var year = 2024;
+
+// if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+//     console.log("it is leap year");
+// }else{
+//     console.log("it is not a leap year");
+    
+// }
+
