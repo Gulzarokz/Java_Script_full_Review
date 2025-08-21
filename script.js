@@ -208,3 +208,35 @@
     
 // }
 
+// Topic Functions
+
+// function sum(){
+//     var a = 10;
+//     var b = 5;
+//     console.log( "The sum of a and b = " , a + b);
+    
+// }
+// sum();
+
+// function greet(name) { 
+//     console.log("Hello " + name + " Welcome back to function");
+    
+// }
+// greet("Gul");
+// greet("Aiza");
+
+// Function Expersion
+
+// var result =  function sum(a, b){
+//     console.log(a+b);
+// }
+// result(10, 40)
+    // sum(10, 10) not working because it's assign to result 
+ 
+
+    // IIFE
+
+  var result = (function(a,b){
+        console.log(a + b);
+        
+    })(10, 16)
