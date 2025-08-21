@@ -70,6 +70,41 @@ console.log("EcmScript");
     // }
     // sum(5, 10);
 
-    let sum = (a, b)=> console.log(`The sum of ${a} and ${b} is ${a + b}`);
-    sum(4, 6)
+    // let sum = (a, b)=> console.log(`The sum of ${a} and ${b} is ${a + b}`);
+    // sum(4, 6)
     
+
+//calculator
+
+function calculator(num1, num2, operator){
+    let results
+    switch (operator) {
+        case "+":
+        results = num1 + num2;
+        return results; 
+
+        case "-":
+        results = num1 - num2;
+        return results;  
+
+        case "*":
+        results = num1 * num2;
+        return results;  
+
+        case "/":
+        results = num1 / num2;
+        return results;  
+            
+    
+        default:
+            console.log("No operator is match");
+            
+            break;
+    }
+}
+
+// console.log(calculator(6, 5, "+"))
+console.log(calculator(6, 5, "-"))
+// console.log(calculator(6, 5, "*"))
+// console.log(calculator(6, 5, "/"))
+// console.log(calculator(6, 5, "%"))
