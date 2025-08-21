@@ -236,7 +236,8 @@
 
     // IIFE
 
-  var result = (function(a,b){
-        console.log(a + b);
+//   var result = (function(a,b){
+//         console.log(a + b);
         
-    })(10, 16)
+//     })(10, 16)
+
