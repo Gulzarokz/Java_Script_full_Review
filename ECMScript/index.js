@@ -76,35 +76,36 @@ console.log("EcmScript");
 
 //calculator
 
-function calculator(num1, num2, operator){
-    let results
-    switch (operator) {
-        case "+":
-        results = num1 + num2;
-        return results; 
+// function calculator(num1, num2, operator){
+//     let results
+//     switch (operator) {
+//         case "+":
+//         results = num1 + num2;
+//         return results; 
 
-        case "-":
-        results = num1 - num2;
-        return results;  
+//         case "-":
+//         results = num1 - num2;
+//         return results;  
 
-        case "*":
-        results = num1 * num2;
-        return results;  
+//         case "*":
+//         results = num1 * num2;
+//         return results;  
 
-        case "/":
-        results = num1 / num2;
-        return results;  
+//         case "/":
+//         results = num1 / num2;
+//         return results;  
             
     
-        default:
-            console.log("No operator is match");
+//         default:
+//             console.log("No operator is match");
             
-            break;
-    }
-}
+//             break;
+//     }
+// }
 
 // console.log(calculator(6, 5, "+"))
-console.log(calculator(6, 5, "-"))
+// console.log(calculator(6, 5, "-"))
+
 // console.log(calculator(6, 5, "*"))
 // console.log(calculator(6, 5, "/"))
 // console.log(calculator(6, 5, "%"))
