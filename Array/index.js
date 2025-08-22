@@ -102,5 +102,51 @@ console.log("Array of javascript");
 //  console.log(fruits.splice(1, 1, "grapes", "pear"));
 //  console.log(fruits);
 
+
+// search methods in an array
+// // indexof() method
+// let number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// console.log(number.indexOf(3
+//     , 5));
+// console.log(number);
+
+//include() methods => return boolean value true of false
+// let number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let results = number.includes(6);
+// console.log(results);
+
+// filter methods
+
+// let number = [1, 2, 3, 6,  4, 5, 6, 7, 8, 9,]
+// let results = number.find((curVal)=>{
+//     return curVal > 6;
+// })
+// console.log(results);
+
+// let number = [1, 2, 3, 4, 5, 6, 7, 8, 9,];
+// let result = number.map((currEle)=>{
+//     return currEle * 2;
+// })
+// console.log(result);
+
+ 
+// let results = result.findIndex((currEle)=>{
+//     return currEle > 5;
+// })
+// console.log(results);
+
+let value = 9;
+let number = [1, 2,9, 3, 4, 5, 6, 7, 6, 8, 9]
+
+let result = number.filter((currEle)=>{
+    return currEle !== value;
+})
+console.log(result);
+
+
+
+
+
+
  
  
