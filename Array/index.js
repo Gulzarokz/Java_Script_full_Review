@@ -89,19 +89,18 @@ console.log("Array of javascript");
 //  let fruits = ["apple", "banana", "Gavava"];
 //  fruits.unshift("peach")
 //  console.log(fruits);
- 
+
 // shift() methods remove elements at the beganing of an array
 
 //  let fruits = ["apple", "banana", "Gavava"];
 //  console.log(fruits.shift());
 //  console.log(fruits);
- 
+
 // splice methods any where you want to add and remove elements in an array
 
 //  let fruits = ["apple", "banana", "Gavava"];
 //  console.log(fruits.splice(1, 1, "grapes", "pear"));
 //  console.log(fruits);
-
 
 // search methods in an array
 // // indexof() method
@@ -129,24 +128,68 @@ console.log("Array of javascript");
 // })
 // console.log(result);
 
- 
 // let results = result.findIndex((currEle)=>{
 //     return currEle > 5;
 // })
 // console.log(results);
 
-let value = 9;
-let number = [1, 2,9, 3, 4, 5, 6, 7, 6, 8, 9]
+// let value = 9;
+// let number = [1, 2,9, 3, 4, 5, 6, 7, 6, 8, 9]
 
-let result = number.filter((currEle)=>{
-    return currEle !== value;
+// let result = number.filter((currEle)=>{
+//     return currEle !== value;
+// })
+// console.log(result);
+
+// Filter() methods
+
+// let productPrice = [
+//   { name: "loptop", price: 1200 },
+//   { name: "phone", price: 800 },
+//   { name: "tablet", price: 300 },
+//   { name: "smartwitch", price: 150 },
+// ];
+
+// let filterProducts = productPrice.filter((curElem) => {
+//   return curElem.price <= 900;
+// });
+// // console.log(product);
+// console.log(filterProducts);
+
+// const number = [1, 2, 9, 10, 4, 5, 6, 7];
+// //  number.sort();
+// // console.log(number);
+
+// const sortNumber = number.sort((a, b)=>{
+//     if(a > b){
+//         return -1;
+//     }
+//     if(b>a){
+//         return 1;
+//     }
+// })
+// console.log(sortNumber);
+
+// let number = [1, 2, 3, 4, 5];
+// let squaredNumber = number.map((currEle)=>{
+//     return currEle * currEle;
+// })
+// console.log(squaredNumber);
+
+// let word = ["Apple", "Banana", "pear"];
+// let toUperCase = word.map((currEle)=>{
+//     // return currEle.toUpperCase();
+//     return currEle.toLowerCase();
+// })
+
+// console.log(toUperCase);
+
+// Used reduce method();
+
+let productPrice = [100, 200, 300, 400, 500];
+let totalPrice = productPrice.reduce((acc, curEle)=>{
+    return acc + curEle;
 })
-console.log(result);
+console.log(totalPrice);
 
 
-
-
-
-
- 
- 
