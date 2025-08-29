@@ -186,10 +186,10 @@ console.log("Array of javascript");
 
 // Used reduce method();
 
-let productPrice = [100, 200, 300, 400, 500];
-let totalPrice = productPrice.reduce((acc, curEle)=>{
-    return acc + curEle;
-})
-console.log(totalPrice);
+// let productPrice = [100, 200, 300, 400, 500];
+// let totalPrice = productPrice.reduce((acc, curEle)=>{
+//     return acc + curEle;
+// })
+// console.log(totalPrice);
 
 
