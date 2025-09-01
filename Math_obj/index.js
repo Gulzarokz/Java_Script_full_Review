@@ -24,7 +24,7 @@ console.log("Maths_Objects");
 // console.log(3**2);
 
 
-// random(
-let randomNumber = (Math.random() *100).toFixed(3);
-console.log(randomNumber);
+// // random(
+// let randomNumber = (Math.random() *100).toFixed(3);
+// console.log(randomNumber);
 
